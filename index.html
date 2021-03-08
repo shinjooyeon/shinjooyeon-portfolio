@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title> 신주연의 포트폴리오 </title>
+    <link rel="stylesheet" href="css/layout.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/fullpage.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="area">
+            <!--1. h1번 로고 하나 넣기  클래스 이름 블라인드처리 -->
+            <h1 class="logo blind">PORTFOLIO</h1>
+            <nav id="gnb">
+                <ul>
+                    <li><a href="">About me</a></li>
+                    <li><a href="">Web Publishing</a></li>
+                    <li><a href="">Web Accessibility</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="container">
+        <section class="section" id="cnt1">
+            <!-- ul li로 하지말고 왼쪽 오른쪽 영역으로 나눠서 오른쪽 영역에는 div 로 하기 -->
+            <!-- <ul>
+                <li><a href=""><img src="" alt=""><img src="" alt=""></a></li>
+                <li><h2><img src="" alt=""></h2><p>sallywndus＠naver.com</p></li>
+            </ul> -->
+            <div class="cnt1_cd"><a href=""><img src="" alt=""><img src="" alt="클릭버튼"></a></div>
+            <div class="cnt1_txt"><img src="" alt="PORTFOLIO SHIN JOO YEON"></div>
+            <div><p>2021<p></div>
+        </section>
+        <section class="section" id="cnt2">
+            <h2>About me</h2> <!-- 주황 막대기 가상요소로 만들기 -->
+            <div class="left">
+                <ul class="l_top">
+                    <li><a href="">HTML</a><p>95</p></li>
+                    <li><a href="">JAVA</a><p>80</p></li>
+                    <li><a href="">CSS</a><p>95</p></li>
+                </ul>
+                <ul class="l_bottom">
+                    <li><a href="">JQUERY</a><p>90</p></li>
+                    <li><a href="">SASS</a><p>80</p></li>
+                    <li><a href="">Ps</a><p>95</p></li>
+                    <li><a href="">Ai</a><p>85</p></li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul>
+                    <li>
+                        <a href="">
+                            <h3>EDUCATION</h3>
+                            <span>2020.09 - 2021.03</span><P>하이미디어IT융합인제개발원<br>디지털미디어 웹디자인(웹퍼블리셔) 과정 수료</P>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h3>CERTIFICATION</h3>
+                            <span>2020.12</span><P>GTQ 그래픽 기술 자격 1급<br><span>2021.02</span>웹디자인 기능사 필기</P>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h3>RESUME</h3>
+                            <p class="orange_txt">포트폴리오 PDF</p>
+                            <p>sallywndus＠naver.com</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h3>LIKE</h3>
+                            <p>음악감상, 전시회보기,<br>수영, 사진찍기</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section" id="cnt3">
+            <h2>WEB PUBLISHING</h2>
+            <ul>
+                <li class="prev_btn"><a href=""><img src="" alt=""></a></li>
+                <li class="next_btn"><a href=""><img src="" alt=""></a></li>
+            </ul>
+            <ul class="content">
+                <li class="big"><a href=""><img src="" alt=""><h4>뮤즈갤러리</h4></a>
+                <ul>
+                    <li><a href="">PUBLISHING</a></li>
+                    <li><a href="">ORIGINAL SITE</a></li>
+                </ul>
+                </li>
+                <li class="small"><a href=""><h4>대한통운</h4></a>
+                <ul>
+                    <li><a href="">PUBLISHING</a></li>
+                    <li><a href="">ORIGINAL SITE</a></li>
+                </ul>
+                </li>
+                <li class="small"><a href=""><h4>대한통운</h4></a>
+                <ul>
+                    <li><a href="">PUBLISHING</a></li>
+                    <li><a href="">ORIGINAL SITE</a></li>
+                </ul>  
+                </li>
+                <li class="small"><a href=""><h4>대한통운</h4></a>
+                <ul>
+                    <li><a href="">PUBLISHING</a></li>
+                    <li><a href="">ORIGINAL SITE</a></li>
+                </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="section" id="cnt4">
+            <h2>WEB ACCESSIBILITY</h2>
+            <!-- 이전 다음 버튼 추가하기 -->
+            <ul>
+                <li class="prev_btn"><a href=""><img src="" alt=""></a></li>
+                <li class="next_btn"><a href=""><img src="" alt=""></a></li>
+            </ul>
+            <div id="box">
+                <div class="view_site"><img src="" alt=""></div>
+                <div class="view_acc"><img src="" alt=""></div>
+                <div class="view_code"><img src="" alt=""></div>
+            </div>
+            <div id="circle">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla possimus soluta quibusdam odit delectus </p>
+            </div>
+        </section>
+        <section class="section" id="cnt5">
+            <h2>THANKYOU FOR WAHTCHING</h2>
+            <ul>
+                <li><a href="">sallywndus＠naver.com</a></li>
+                <li><a href="">포트폴리오 다운받기</a></li>
+            </ul>
+            <button type="button" class="img_btn"><img src="" alt=""></button>
+            <!-- <button type="button" class="pdf_btn"><a href="">PDF</a></button> -->
+            <a href="">PDF</a>
+            <!-- pdf 파일로 이동하는 건 a태그 -->
+        </section>
+    </div>
+    <nav id="indicator">
+        <ul>
+            <li>
+                <button type="button" class="nav_btn" data-href="#cnt1"><!-- 인덱스번호 나 클릭하면 이동할 대상을 지정하여 스크립트에서 처리 -->
+                    <!-- span 태그 icon 필요없음 -->
+                    <span class="txt">01</span>
+                </button>
+            </li>
+            <li>
+                <button type="button" class="nav_btn">
+                    <span class="txt">02</span>
+                </button>
+            </li>
+            <li>
+                <button type="button" class="nav_btn">
+                    <span class="txt">03</span>
+                </button>
+            </li>
+            <li>
+                <button type="button" class="nav_btn">
+                    <span class="txt">04</span>
+                </button>
+            </li>
+            <li>
+                <button type="button" class="nav_btn">
+                    <span class="txt">05</span>
+                </button>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
