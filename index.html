@@ -13,44 +13,63 @@
     <header id="header">
         <div class="area">
             <!--1. h1번 로고 하나 넣기  클래스 이름 블라인드처리 -->
-            <h1 class="logo blind">PORTFOLIO</h1>
+            <h1 class="blind">PORTFOLIO</h1>
             <nav id="gnb">
                 <ul>
                     <li><a href="">About me</a></li>
                     <li><a href="">Web Publishing</a></li>
                     <li><a href="">Web Accessibility</a></li>
-                    <li><a href="">contact</a></li>
+                    <li><a href="">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <div id="container">
-        <section class="section" id="cnt1">
-            <!-- ul li로 하지말고 왼쪽 오른쪽 영역으로 나눠서 오른쪽 영역에는 div 로 하기 -->
-            <!-- <ul>
-                <li><a href=""><img src="" alt=""><img src="" alt=""></a></li>
-                <li><h2><img src="" alt=""></h2><p>sallywndus＠naver.com</p></li>
-            </ul> -->
-            <div class="cnt1_cd"><a href=""><img src="" alt=""><img src="" alt="클릭버튼"></a></div>
-            <div class="cnt1_txt"><img src="" alt="PORTFOLIO SHIN JOO YEON"></div>
-            <div><p>2021<p></div>
+        <section id="section" class="cnt1">
+            <div class="cnt1_cd"><a href=""><img src="images/main_cd.png" alt="" class="cd_main"><img src="images/main_cd_play.png" alt="" class="cd_play_btn"></a></div>
+            <div class="cnt1_txt"><img src="images/main_title.png" alt=""></div>
+            <div class="cnt1_date cnt1_date_b"><p>2021<p></div>
+            <div class="cnt1_date cnt1_date_o"><p>2021<p></div>
         </section>
-        <section class="section" id="cnt2">
+        <section id="section" class="cnt2">
             <h2>About me</h2> <!-- 주황 막대기 가상요소로 만들기 -->
-            <div class="left">
-                <ul class="l_top">
-                    <li><a href="">HTML</a><p>95</p></li>
-                    <li><a href="">JAVA</a><p>80</p></li>
-                    <li><a href="">CSS</a><p>95</p></li>
-                </ul>
-                <ul class="l_bottom">
-                    <li><a href="">JQUERY</a><p>90</p></li>
-                    <li><a href="">SASS</a><p>80</p></li>
-                    <li><a href="">Ps</a><p>95</p></li>
-                    <li><a href="">Ai</a><p>85</p></li>
-                </ul>
+            <div class="left_circle">
+                <h3>SKILS</h3>
+                <div class="skil skil_c1">
+                    <a href="">
+                        <p>Html</p>
+                    </a>
+                </div>
+                <div class="skil skil_c2">
+                    <a href="">
+                        <p>Java<br>Script</p>
+                    </a>
+                </div>
+                <div class="skil skil_c3">
+                    <p>Css</p>
+                </div>
+                <div class="skil skil_c4">
+                    <a href="">
+                        <p>Jquery</p>
+                    </a>
+                </div>
+                <div class="skil skil_c5">
+                    <a href="">
+                        <p>Sass</p>
+                    </a>
+                </div>
+                <div class="skil skil_c6">
+                    <a href="">
+                        <p>Ps</p>
+                    </a>
+                </div>
+                <div class="skil skil_c7">
+                    <a href="">
+                        <p>Ai</p>
+                    </a>
+                </div>
             </div>
-            <div class="right">
+            <div class="right_circle">
                 <ul>
                     <li>
                         <a href="">
@@ -61,7 +80,7 @@
                     <li>
                         <a href="">
                             <h3>CERTIFICATION</h3>
-                            <span>2020.12</span><P>GTQ 그래픽 기술 자격 1급<br><span>2021.02</span>웹디자인 기능사 필기</P>
+                            <span>2020.12</span><br><P>GTQ 그래픽 기술 자격 1급<br><span>2021.02</span><br>웹디자인 기능사 필기</P>
                         </a>
                     </li>
                     <li>
@@ -80,32 +99,32 @@
                 </ul>
             </div>
         </section>
-        <section class="section" id="cnt3">
+        <section id="section" class="cnt3">
             <h2>WEB PUBLISHING</h2>
-            <ul>
-                <li class="prev_btn"><a href=""><img src="" alt=""></a></li>
-                <li class="next_btn"><a href=""><img src="" alt=""></a></li>
+            <ul class="btn">
+                <li class="prev_btn"><a href=""><img src="images/sec_icon_prev.png" alt=""></a></li>
+                <li class="next_btn"><a href=""><img src="images/sec_icon_next.png" alt=""></a></li>
             </ul>
             <ul class="content">
-                <li class="big"><a href=""><img src="" alt=""><h4>뮤즈갤러리</h4></a>
+                <li class="big"><a href=""><!-- <img src="images/main_section_1_img1 (2).jpg" alt=""> --><h4>뮤즈갤러리</h4></a>
                 <ul>
                     <li><a href="">PUBLISHING</a></li>
                     <li><a href="">ORIGINAL SITE</a></li>
                 </ul>
                 </li>
-                <li class="small"><a href=""><h4>대한통운</h4></a>
+                <li class="small small1"><a href=""><!-- <img src="images/bg_mainMovieBg_1 (1).jpg" alt=""> --><h4>대한통운</h4></a>
                 <ul>
                     <li><a href="">PUBLISHING</a></li>
                     <li><a href="">ORIGINAL SITE</a></li>
                 </ul>
                 </li>
-                <li class="small"><a href=""><h4>대한통운</h4></a>
+                <li class="small small2"><a href=""><!-- <img src="images/bg_nongsim.jpg" alt=""> --><h4>농심</h4></a>
                 <ul>
                     <li><a href="">PUBLISHING</a></li>
                     <li><a href="">ORIGINAL SITE</a></li>
                 </ul>  
                 </li>
-                <li class="small"><a href=""><h4>대한통운</h4></a>
+                <li class="small small3"><a href=""><!-- <img src="images/20200410162818.jpg" alt=""> --><h4>라온시큐어</h4></a>
                 <ul>
                     <li><a href="">PUBLISHING</a></li>
                     <li><a href="">ORIGINAL SITE</a></li>
@@ -113,29 +132,32 @@
                 </li>
             </ul>
         </section>
-        <section class="section" id="cnt4">
+        <section id="section" class="cnt4">
             <h2>WEB ACCESSIBILITY</h2>
-            <!-- 이전 다음 버튼 추가하기 -->
-            <ul>
-                <li class="prev_btn"><a href=""><img src="" alt=""></a></li>
-                <li class="next_btn"><a href=""><img src="" alt=""></a></li>
-            </ul>
+            <!-- <ul class="btn">
+                <li class="prev_btn"><a href=""><img src="images/sec_icon_prev.png" alt=""></a></li>
+                <li class="next_btn"><a href=""><img src="images/sec_icon_next.png" alt=""></a></li>
+            </ul> -->
             <div id="box">
                 <div class="view_site"><img src="" alt=""></div>
                 <div class="view_acc"><img src="" alt=""></div>
                 <div class="view_code"><img src="" alt=""></div>
             </div>
             <div id="circle">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla possimus soluta quibusdam odit delectus </p>
+                <p>안녕하세요안녕하세요안녕하세요안녕하세요안녕하세요안녕하세요<br>
+                    안녕하세요안녕하세요안녕하세요안녕하세요안녕하세요안녕하세요<br>
+                    안녕하세요안녕하세요안녕하세요안녕하세요안녕하세요안녕하세요<br>
+                    안녕하세요안녕하세요안녕하세요안녕하세요안녕하세요안녕하세요안녕하세요
+                </p>
             </div>
         </section>
-        <section class="section" id="cnt5">
+        <section id="section" class="cnt5">
             <h2>THANKYOU FOR WAHTCHING</h2>
             <ul>
                 <li><a href="">sallywndus＠naver.com</a></li>
                 <li><a href="">포트폴리오 다운받기</a></li>
             </ul>
-            <button type="button" class="img_btn"><img src="" alt=""></button>
+            <button type="button" class="img_btn"><img src="images/" alt=""></button>
             <!-- <button type="button" class="pdf_btn"><a href="">PDF</a></button> -->
             <a href="">PDF</a>
             <!-- pdf 파일로 이동하는 건 a태그 -->
